@@ -3,6 +3,7 @@
 using namespace std;
 int main()
 {
+   
     string c1,c2;
     c1 = "1";
     c2 = "2";
@@ -40,14 +41,16 @@ int main()
         }
          else
          {
-           cout << distancia;
+           cout << 
          }
     }
 
  cout << "me fale qual seu destino :" ;
  cin >> usuario;
- void distancia(string c1,  string c2, int matriz [4][4])
+ void distancia(string c1, string c2;)
  {
+
+ }
     if( usuario == "vitoria para BH" && usuario == "BH para vitoria")
  {
   cout <<" A distancia de uma para outra é de: "<< 524 << "km" << endl;
@@ -75,6 +78,5 @@ else if(usuario == "BH  para RJ" &&  usuario == "RJ para BH")
  else
  {
     cout << " não tem distancia definida";
- }
  }
  }
