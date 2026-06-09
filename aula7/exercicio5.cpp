@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-   
+    void distancia(void);
     string c1,c2;
     c1 = "1";
     c2 = "2";
@@ -31,9 +31,9 @@ int main()
 
     while(c1 != c2)
     {
-        cout << "digite a cidade origem";
+        cout << "digite a cidade origem:\n";
         cin >> c1; 
-         cout << "digite a cidade destino";
+         cout << "digite a cidade destino:\n";
          cin >> c2;
         if(c1 == c2)
         {
@@ -41,42 +41,42 @@ int main()
         }
          else
          {
-           cout << 
+           cout <<  distancia;
          }
     }
 
  cout << "me fale qual seu destino :" ;
  cin >> usuario;
- void distancia(string c1, string c2;)
+ void distancia(string c1,string c2);
  {
 
- }
-    if( usuario == "vitoria para BH" && usuario == "BH para vitoria")
+       if( usuario == "vitoria para BH" && usuario == "BH para vitoria")
  {
-  cout <<" A distancia de uma para outra é de: "<< 524 << "km" << endl;
+  cout <<" A distancia de uma para outra é de: "<< matriz[0][1] << "km" << endl;
  }
  else if( usuario == "vitoria para RJ" && usuario == " RJ para vitoria")
  {
-    cout <<" A distancia de uma para outra é de: "<< 521 << "km" << endl;
+    cout <<" A distancia de uma para outra é de: "<< matriz[0][2] << "km" << endl;
  }
 else if(usuario == "vitoria para SP" && usuario == "SP para vitoria")
  {
-    cout <<" A distancia de uma para outra é de: "<< 882 << "km" << endl;
+    cout <<" A distancia de uma para outra é de: "<< matriz[0][3] << "km" << endl;
  }
 else if(usuario == "BH  para RJ" &&  usuario == "RJ para BH")
  {
-  cout <<" A distancia de uma para outra é de: "<< 434 << "km" << endl;
+  cout <<" A distancia de uma para outra é de: "<< matriz[2][1] << "km" << endl;
  }
  else if(usuario == " BH para SP" && usuario == " SP para BH")
  {
-    cout <<" A distancia de uma para outra é de: "<< 586 << "km" << endl;
+    cout <<" A distancia de uma para outra é de: "<< matriz[3][1] << "km" << endl;
  }
  else if( usuario == "RJ para SP" && usuario == "SP para RJ")
  {
-    cout <<" A distancia de uma para outra é de: "<< 429 << "km" << endl;
+    cout <<" A distancia de uma para outra é de: "<< matriz[3][2] << "km" << endl;
  }
  else
  {
     cout << " não tem distancia definida";
  }
  }
+}
