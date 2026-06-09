@@ -2,11 +2,11 @@
 {
     static void Main(string[] args)
     {
-      int[] numeros =  new int[10];
-     numeros = new int[10] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-     int[] pares =  new int[10];
-     int[] impares = new int[10];
-    for(int i = 0; i<11 ; i++)
+      int[] numeros =  new int[5];
+     numeros = new int[5] { 1, 2, 3, 4, 5};
+     int[] pares =  new int[5];
+     int[] impares = new int[5];
+    for(int i = 0; i<6; i++)
      {
     System.Console.WriteLine(numeros[i]);
     if(numeros[i] % 2 == 0)

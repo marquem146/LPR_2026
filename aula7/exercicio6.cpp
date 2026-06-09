@@ -34,7 +34,7 @@ int main()
         {
             for(int k = 0; k < 3; k++)
             {
-                resultado[i][k] = matrizA [i][k] * matrizB [i][j];
+                resultado[i][k] = matrizA [i][k] * matrizB [k][j];
             }
         }
     }
