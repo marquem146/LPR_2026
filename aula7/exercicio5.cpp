@@ -37,11 +37,11 @@ int main()
         if(c1 == c2)
         {
           cout << "voce ja saiu" << endl;
-         else 
+        }
+         else
          {
            cout << distancia;
          }
-        }
     }
 
  cout << "me fale qual seu destino :" ;
