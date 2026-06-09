@@ -60,7 +60,7 @@ else if(usuario == "vitoria para SP" && usuario == "SP para vitoria")
  {
     cout <<" A distancia de uma para outra é de: "<< 882 << "km" << endl;
  }
-else if(usuario == "BH para RJ" &&  usuario == "RJ para BH")
+else if(usuario == "BH  para RJ" &&  usuario == "RJ para BH")
  {
   cout <<" A distancia de uma para outra é de: "<< 434 << "km" << endl;
  }
