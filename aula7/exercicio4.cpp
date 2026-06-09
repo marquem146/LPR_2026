@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-   int matriz [3][3];
+     int matriz [3][3];
    matriz [0][0] = 12;
    matriz[0][1] = 15;
    matriz[0][2] = 17;
